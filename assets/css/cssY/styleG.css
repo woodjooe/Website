@@ -1,0 +1,33 @@
+* {
+    box-sizing:border-box;
+
+}
+
+
+
+
+body {
+    background:blue;
+    background-image:url("../../images/sky.jpg");
+    padding:0;
+    margin:0;
+    overflow:hidden;
+
+}
+
+.game-container {
+    position:relative;
+    width:750px;
+    height:450px;
+    margin:auto;
+    margin-top: 100px;
+    transform:scale(1.15);
+    outline:1px solid rgb(22, 6, 22);
+
+    
+}
+
+.game-container canvas{
+    image-rendering: pixelated;
+    
+}
